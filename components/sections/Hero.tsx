@@ -15,40 +15,40 @@ export default function Hero() {
 
   return (
     <section className="relative w-full py-12 md:py-24 lg:py-32 xl:py-48 overflow-hidden">
-      <div 
+      <div
         className="absolute inset-0 bg-gradient-to-b from-transparent to-background/80 dark:from-transparent dark:to-background/90"
       />
-      
-      <div 
-        className="absolute inset-0 opacity-10 dark:opacity-20" 
+
+      <div
+        className="absolute inset-0 opacity-10 dark:opacity-20"
         style={{
           backgroundImage: "url('https://images.pexels.com/photos/3825586/pexels-photo-3825586.jpeg?auto=compress&cs=tinysrgb&w=1600')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       />
-      
+
       <div className="container relative">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
-          <div 
+          <div
             className={`flex-1 space-y-6 transition-all duration-1000 ease-out ${
               isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-              <span className="bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">Animesh Ghosh</span>
-              <span className="block">Medical Laboratory</span> 
+              <span className="bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">John Doe</span>
+              <span className="block">Medical Laboratory</span>
               <span className="bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
                 Technology Professional
               </span>
             </h1>
-            
+
             <p className="text-lg text-muted-foreground max-w-xl">
-              Passionate BMLT student with expertise in clinical diagnostics, 
-              laboratory techniques, and medical research. Transforming healthcare 
+              Passionate BMLT student with expertise in clinical diagnostics,
+              laboratory techniques, and medical research. Transforming healthcare
               through precise analysis and innovative approaches.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" asChild>
                 <Link href="/contact">
@@ -60,8 +60,8 @@ export default function Hero() {
               </Button>
             </div>
           </div>
-          
-          <div 
+
+          <div
             className={`relative transition-all duration-1000 ease-out delay-300 ${
               isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
