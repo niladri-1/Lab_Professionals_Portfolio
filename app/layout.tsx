@@ -19,6 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+		  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2997/2997298.png" type="image/x-icon" />
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
